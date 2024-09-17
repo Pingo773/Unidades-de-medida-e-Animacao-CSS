@@ -1,0 +1,58 @@
+ALT + SHIFT + F = organiza el código.
+
+Para añadir una clase a un elemento HTML, se coloca class como atributo e el nombre como valor. 
+Ejemplo:
+
+<div class="container">
+Elemento div tiene el atributo class y su valor es container (valor es el nombre que quieras)
+
+Un elemento puede tener dos nombres, dos valores en el atributo.
+Ejemplo: <div class="container box">
+
+Para estilizar clases en CSS, se coloca un punto en el comienzo.
+Ejemplo:
+
+.container{
+
+}
+
+display: flex; Coloca los elementos uno al lado del otro, haciendo que se vean varios elementos en la pantalla sin hacer scroll.
+
+
+ESCRIBIR .nombre creará un elemento div con una clase atribuída.
+Por ejemplo: .nombre + TAB
+
+<div class="nombre"></div>
+
+Escribir un elemento con un punto al final y un valor, creará ese elemento con el atributo clase y el valor que le pones luego del punto.
+Ejemplo: h1.textoanimado + TAB
+
+<h1 class="textoanimado"></h1>
+
+
+
+PARA COLOCAR GRADIENTEEEEE en el Background
+
+{
+/* Se coloca el deg, y la cantidad de colores que quieras. */
+background: linear-gradient(90deg, #2e2eac, #8621c0, #5fb87c, #1ea0a5);
+}
+
+
+CREAR ANIMACIONES
+@keyframes nombre {
+
+0{
+
+}
+
+50{
+
+}
+
+
+100{
+
+}
+
+}
